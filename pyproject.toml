@@ -1,22 +1,7 @@
 [project]
 name = "quantbio"
 version = "0.1.0"
-description = "Shortly: quantbio is a Python library that applies the mathematical tools used by stock traders to analyze price movements to biological data.
-
-The Core of the Idea
-A stock’s price changes over time: sometimes it moves steadily, and sometimes it fluctuates sharply. Quant analysts have developed highly sophisticated tools to measure this:
-- Volatility: How much does something fluctuate?
-- GARCH: When will the volatility increase? Will a storm follow a calm period?
-- Regime switching: When did the system shift from “calm mode” to “crisis mode”?
-- Correlation: Which variables move in tandem?
-
-In biology, too, there’s a wealth of data that changes over time:
-- How does the expression of a gene change hour by hour throughout the day or after taking a drug?
-- When did case numbers in an outbreak shift into “explosive growth” mode?
-- How regular are body rhythms (the circadian clock)?
-
-These are actually “numbers that fluctuate over time” as well. But biologists don’t use these powerful tools from finance very often, because they aren’t easy to use. Quantbio will bridge these two worlds.
-"
+description = "Quant finance tools (volatility, GARCH, regime detection) for biological time series."
 readme = "README.md"
 authors = [
     { name = "Ceren Bozkurt", email = "zuhrceren@icloud.com" }
